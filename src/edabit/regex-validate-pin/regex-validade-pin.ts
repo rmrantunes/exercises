@@ -1,1 +1,1 @@
-export const myRegExp = new RegExp("([0-9]{4,6})");
+export const myRegExp = new RegExp("^([0-9]{6}|[0-9]{4})$");
