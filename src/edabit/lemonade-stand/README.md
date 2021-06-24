@@ -1,4 +1,4 @@
-#Lemonade Stand
+# Lemonade Stand
 
 At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you, and order one at a time (in the order specified by `bills`).
 
