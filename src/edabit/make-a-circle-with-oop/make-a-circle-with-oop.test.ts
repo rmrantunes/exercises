@@ -1,14 +1,5 @@
 import { Circle } from './make-a-circle-with-oop'
 
-// let circy = new Circle(11)
-// circy.getArea()
-
-// // Should return 380.132711084365
-// let circy = new Circle(4.44)
-// circy.getPerimeter()
-
-// // Should return 27.897342763877365
-
 describe('Make a Circle with OOP', () => {
   it('getArea()', () => {
     const circy = new Circle(11)

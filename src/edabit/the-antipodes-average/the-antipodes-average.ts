@@ -1,10 +1,10 @@
 export function antipodesAverage(numbersArray: number[]) {
   const length = numbersArray.length
   const isLengthOdd = length % 2 !== 0
-  const halfLength = Math.floor(length / 2)
-  const lastHalfSliceIndex = isLengthOdd ? halfLength + 1 : halfLength
+  const lengthHalf = Math.floor(length / 2)
+  const lastHalfSliceIndex = isLengthOdd ? lengthHalf + 1 : lengthHalf
 
-  const firstHalf = numbersArray.slice(0, halfLength)
+  const firstHalf = numbersArray.slice(0, lengthHalf)
   const reversedLastHalf = numbersArray.slice(lastHalfSliceIndex).reverse()
 
   const result: number[] = []
